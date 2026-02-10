@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --main-bg-color: #e9e9e9;
+    --primary-text-color: #424242;
+    --accent-color: #ff3f3c;
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    background: url(polaroid.png) no-repeat center 100px;
+    margin: 0 auto;
+    width: 1000px;
+}
