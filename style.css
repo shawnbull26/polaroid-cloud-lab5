@@ -21,11 +21,77 @@ header {
 
 header h1 {
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 main {
     background: url(polaroid.png) no-repeat center 100px;
     margin: 0 auto;
     width: 1000px;
+    align-items: center;
+}
+
+main h3 {
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0 30px;
+}
+/* 
+main p {
+    font-size: 1.2em;
+    width: 75%;
+} */
+
+.hero {
+    text-align: center;
+    min-height: 800px;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.details {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.details ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 35px;
+}
+
+.details ul li.wifi {
+    background: url('wifi-solid.svg') no-repeat center left;
+}
+
+.details ul li.cloud {
+    background: url('cloud-solid.svg') no-repeat center left;
+}
+
+.details ul li.qr {
+    background: url('qrcode-solid.svg') no-repeat center left;
+}
+
+.details ul li.share {
+    background: url('share-solid.svg') no-repeat center left;
+}
+
+.cta {
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cta form {
+    background: #333333;
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+    border-radius: 10px;
 }
